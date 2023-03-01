@@ -1,4 +1,5 @@
-# AWS-schedule-instance-type-lambda
+# AWS-change-schedule-instance-type-lambda
+
 This simple Lambda will change an instante type if you need to do it after hours.
 
 1. Create AWS Lambda with Phyton last version available.
