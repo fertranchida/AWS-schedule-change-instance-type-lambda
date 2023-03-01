@@ -1,10 +1,10 @@
 # AWS-change-schedule-instance-type-lambda
 
-This simple Lambda will change an instante type if you need to do it after hours.
+This simple Lambda will change an instance type if you need to do it after hours.
 
 1. Create AWS Lambda with Phyton last version available.
 2. Deploy code.
-3. Change AWS Lambda permissions by atacching the policy from this repo.
+3. Change AWS Lambda permissions by attacching the policy from this repo.
 4. Be sure to change the general configuration by extending the timeout to one minute. (This is because function will wait for instance to get stopped)
 
 ![image](https://user-images.githubusercontent.com/103848038/222123223-25b6fe2a-33af-4b2e-b9d8-26f73f7b319e.png)
